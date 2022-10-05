@@ -9,5 +9,6 @@ public interface EmployeeService {
 	public void input();
 	public String search(int employeeId); // 사원아이디에 해당되는 이름 반환해주는 메소드.
 	public void print(); //전체 사원정보 출력.
+	public int searchSal(int employeeId); //사원아이디에 해당되는 급여정보를 반환해주는 메소드.
 	
 }
